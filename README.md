@@ -6,7 +6,8 @@ Given the success the methods such as Empirical Orthogonal Functions and Princip
 
 ## Workflow:
 
-  1. The first step in this workflow is to run the ListingFiles notebook. For my useage, I created a separate environment solely for this notebook. Boto3 seems to have compatability issues with some of the othe packages used  in this project, so the easiest solution seemed to be to put it in an environment by itself.   
+  1. The first step in this workflow is to run the ListingFiles notebook. For my useage, I created a separate environment solely for this notebook. Boto3 seems to have compatability issues with some of the othe packages used  in this project, so the easiest solution seemed to be to put it in an environment by itself. The notebook itself requires no input and will generate a text file containing a list of links for the 24 hour timestep grib file of each HAFS-A model run.
+  2. Next, run the Data Workflow notebook. This notebook has several variables and parameters that the user can tweek. The primary parameter affecting the dataset is the   
 
 ## Packages required:
  (The environment yaml's may be incompatible with your system depending on your system configuration.)
