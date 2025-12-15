@@ -4,7 +4,9 @@ Tropical cyclones have long been characterized by two values - minimum central p
 
 Given the success the methods such as Empirical Orthogonal Functions and Principal Compontent Analysis have had in identifying large scale synoptic and climatic patterns, this project looks to see whether such data compression would be feasible on a storm-centric basis.
 
+## Workflow:
 
+  1. The first step in this workflow is to run the ListingFiles notebook. For my useage, I created a separate environment solely for this notebook. Boto3 seems to have compatability issues with some of the othe packages used  in this project, so the easiest solution seemed to be to put it in an environment by itself.   
 
 ## Packages required:
  (The environment yaml's may be incompatible with your system depending on your system configuration.)
